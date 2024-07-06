@@ -183,10 +183,10 @@
 		"Steam_Citadel_RP_PlayingAs"							"{%param0%}: {%param1%}k"
 		
 		// These Match Mode ("MM_") tokens are for the %param0% below.
-		"Steam_Citadel_RP_MM_Unranked"							"Competitive"
-		"Steam_Citadel_RP_MM_Ranked"							"Competitive"
+		"Steam_Citadel_RP_MM_Unranked"							"Deadlock"
+		"Steam_Citadel_RP_MM_Ranked"							"Deadlock"
 		"Steam_Citadel_RP_MM_PrivateLobby"						"Private"
-		"Steam_Citadel_RP_MM_SoloBot"							"Bot Match"
+		"Steam_Citadel_RP_MM_SoloBot"							"Bot"
 		"Steam_Citadel_RP_MM_Tutorial"							"Tutorial"
 
 		// These Game Mode ("GM_") tokens are for the %param1% below.
@@ -282,7 +282,7 @@
 		"upgrade_clip_size_3_desc"			"Greatly Increases <span class=\"highlight\">ammo</span>."
 
 		"upgrade_ammo_scavenger"			"Ammo Scavenger"
-		"upgrade_ammo_scavenger_desc"		"Any time you secure or deny a Soul you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">spirit power</span>."
+		"upgrade_ammo_scavenger_desc"		"Any time you secure or deny a Soul you <span class=\"highlight\">get ammo back</span> and gain stacking <span class=\"highlight\">Spirit Power</span>."
 		AmmoPerSoul_label					"Ammo Per Soul"
 		SpiritPowerPerSoul_label			"Spirit Power Per Soul"
 		AmmoScavengerDuration_label			"Spirit Power Duration"
@@ -292,29 +292,29 @@
 		"upgrade_stabilizer_desc"		"Removes the <span class=\"highlight\">movement speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>."
 
 		"upgrade_lifestrike_gauntlets"		"Melee Lifesteal"
-		"upgrade_lifestrike_gauntlets_desc"	"Your <span class=\"highlight\">melee attack</span> against an enemy hero <span class=\"highlight\">heals you</span> for {s:LifestrikeHeal} and {s:LifestrikeHealPercent}% of the melee damage done."
+		"upgrade_lifestrike_gauntlets_desc"	"Your <span class=\"highlight\">Melee</span> attacks against enemy heroes <span class=\"highlight\">heals you</span> for {s:LifestrikeHealPercent}% of the <span class=\"highlight\">Melee Damage</span> dealt plus {s:LifestrikeHeal}."
 
 		"upgrade_chain_lightning"		"Tesla Bullets"
-		"upgrade_chain_lightning_desc"	"Your bullets have a chance to <span class=\"highlight\">shock</span> your target.  The shock will jump to a nearby enemy."
+		"upgrade_chain_lightning_desc"	"Your bullets have a chance to <span class=\"highlight\">shock</span> your target.  The <span class=\"highlight\">shock</span> will jump to a nearby enemy."
 
 		"upgrade_galvanic_storm"		"Galvanic Storm"
 		"upgrade_galvanic_storm_passive1"	"Your bullets have a chance to <span class=\"highlight\">shock</span> your target.  The shock will jump to a nearby enemy."
 		"upgrade_galvanic_storm_passive2"	"When your spirit barrier is destroyed, you are empowered, granting <span class=\"highlight\">{s:BuffDamageMult}x shock damage</span> and increased <span class=\"highlight\">movement speed</span>"
 		
 		"upgrade_attack_speed_1"			"Fire Rate"
-		"upgrade_attack_speed_1_desc"	"Increases your <span class=\"highlight\">fire rate</span>."
+		"upgrade_attack_speed_1_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		"upgrade_small_attack_speed"		"Basic Fire Rate"
-		"upgrade_small_attack_speed_desc"	"Increases your <span class=\"highlight\">fire rate</span>."
+		"upgrade_small_attack_speed_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		"upgrade_targeted_silence"		"Silence Glyph"
-		"upgrade_targeted_silence_desc"	"Fires a projectile which <span class=\"highlight\">silences</span> the target and <span class=\"highlight\">amplifies your Spirit damage</span> against it. Silence does not interrupt channeling abilities."
+		"upgrade_targeted_silence_desc"	"Fires a projectile which <span class=\"highlight\">Silences</span> the target and amplifies your <span class=\"highlight\">Spirit Damage</span> against it. Silence does not interrupt channeling abilities."
 
 		"upgrade_proc_silence"			"EMP Bullets"
 		"upgrade_proc_silence_desc"		"Your bullets charge up an <span class=\"highlight\">EMP</span> on enemy heroes that will <span class=\"highlight\">prevent targets from using abilities</span>. Victims are immune to emp bullets for <span class=\"highlight\">{s:ImmunityDuration}s</span> after application expires."
 
 		"upgrade_silencer"				"Silencer"
-		"upgrade_silencer_active"		"For the next {s:AbilityDuration}s, <span class=\"highlight\">all your bullets immediately apply a Silence</span> and a <span class=\"highlight\">movement slow</span>.  Silence prevents targets from using abilities."
+		"upgrade_silencer_active"		"For the next {s:AbilityDuration}s, <span class=\"highlight\">all your bullets immediately apply Silence</span> and a <span class=\"highlight\">Movement Slow</span>.  Silence prevents targets from using abilities."
 		"upgrade_silencer_passive1"		"Your bullets deal <span class=\"highlight\">+{s:BonusBulletDamageToEMPTargets}% damage to Silenced targets</span>."
 		"upgrade_silencer_passive2"		"Your bullets build up an <span class=\"highlight\">EMP</span> on enemy heroes, preventing them from using abilities."
 
@@ -322,10 +322,10 @@
 		"upgrade_proc_tech_damage_desc"	"Your bullets also deal your <span class=\"highlight\">base bullet damage [{s:BaseDamagePerShot}] </span> as spirit damage.  Magitech Rounds receives <span class=\"highlight\">{s:SpellAmplificationMultiplier}x</span> amplification from <span class=\"highlight\">Spirit Power</span>. Shotguns split the damage between each pellet. This effect can only happen once every {s:ProcCooldown}s."
 		
 		"upgrade_slowing_bullets"		"Slowing Bullets"
-		"upgrade_slowing_bullets_desc"	"Your bullets apply <span class=\"highlight\">movement slow</span>."
+		"upgrade_slowing_bullets_desc"	"Your bullets apply <span class=\"highlight\">Movement Slow</span>."
 
 		"upgrade_inhibitor"			"Inhibitor"
-		"upgrade_inhibitor_desc"	"Your bullets apply <span class=\"highlight\">movement slow</span> and reduce the target's <span class=\"highlight\">outgoing damage</span> on hit."
+		"upgrade_inhibitor_desc"	"Your bullets apply <span class=\"highlight\">Movement Slow</span> and reduce the target's <span class=\"highlight\">outgoing damage</span> on hit."
 		modifier_inhibitor_debuff	"Inhibitor"
 		OutgoingAbilityDamagePenaltyPercent_label	"Damage Penalty"
 		OutgoingAbilityDamagePenaltyPercent_postfix	"%"
@@ -342,14 +342,14 @@
 		"upgrade_leveler_innate_desc"	"Close Range<br>Detention Rounds"
 
 		"upgrade_bullet_armor_reduction_aura"			"Hunter's Aura"
-		"upgrade_bullet_armor_reduction_aura_desc"		"Reduces nearby enemies' <span class=\"highlight\">bullet resist and fire rate</span>. If there is only one enemy hero nearby, this has <span class=\"highlight\">double effect</span>."
+		"upgrade_bullet_armor_reduction_aura_desc"		"Reduces nearby enemies' <span class=\"highlight\">Bullet Resist and Fire Rate</span>. If there is only one enemy hero nearby, this <span class=\"highlight\">effect is tripled</span>."
 
 		"upgrade_nearby_enemy_boost"		"Adrenaline Rush"
-		"upgrade_nearby_enemy_boost_desc"	"Gain bonus <span class=\"highlight\">weapon damage</span> and <span class=\"highlight\">fire rate</span> when there are two or more enemy heroes nearby."
+		"upgrade_nearby_enemy_boost_desc"	"Gain bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span> when there are two or more enemy heroes nearby."
 
 		"upgrade_dps_aura"				"Heroic Aura"
-		"upgrade_dps_aura_active_desc"	"Provides <span class=\"highlight\">bonus movement speed</span> and <span class=\"highlight\">fire rate</span> to you and nearby allies."
-		"upgrade_dps_aura_desc"			"Provides <span class=\"highlight\">fire rate</span> to nearby player minions."
+		"upgrade_dps_aura_active_desc"	"Provides bonus <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Fire Rate</span> to you and nearby allies."
+		"upgrade_dps_aura_desc"			"Provides <span class=\"highlight\">Fire Rate</span> to nearby player minions."
 		"modifier_dps_aura_active"		"Heroic Active"
 		"modifier_dps_aura_player"		"Heroic Firerate"
 
@@ -357,10 +357,10 @@
 		"BonusBaseDamage_postfix"		"%"
 
 		"upgrade_fire_rate_aura"			"Fire Rate Aura"
-		"upgrade_fire_rate_aura_desc"	"Provides a <span class=\"highlight\">fire rate</span> increase to you and nearby teammates.  Different bonus to non-Heroes"
+		"upgrade_fire_rate_aura_desc"	"Provides a <span class=\"highlight\">Fire Rate</span> increase to you and nearby teammates.  Different bonus to non-Heroes"
 
 		"upgrade_warp_stone"		"Warp Stone"
-		"upgrade_warp_stone_desc"	"<span class=\"highlight\">Teleport</span> straight ahead, gaining <span class=\"highlight\">bullet resist</span>."
+		"upgrade_warp_stone_desc"	"<span class=\"highlight\">Teleport</span> straight ahead, gaining <span class=\"highlight\">Bullet Resist</span>."
 		WarpStoneRange_label		"Teleport Range"
 		WarpStoneRange_postfix		"m"
 		modifier_warp_stone_caster	"Warp Stone"
@@ -370,28 +370,28 @@
 		CasterSlowPercent_postfix	"%"
 
 		"upgrade_tech_damage_pulse"			"Torment Pulse"
-		"upgrade_tech_damage_pulse_desc"	"Periodically deals spirit damage to the closest nearby enemy."
+		"upgrade_tech_damage_pulse_desc"	"Periodically deals <span class=\"highlight\">Spirit Damage</span> to the closest nearby enemy."
 
 		"upgrade_magic_burst"	"Mystic Burst"
-		"upgrade_magic_burst_desc"	"Abilities deal <span class=\"highlight\">bonus damage</span> if they deal {s:MinimumDamage} damage or more in a single hit."
+		"upgrade_magic_burst_desc"	"Abilities deal bonus <span class=\"highlight\">Spirit Damage</span> if they deal {s:MinimumDamage} damage or more in a single hit."
 		MagicBurstDamage_label		"Bonus Damage"
 
 		"upgrade_magic_shock"	"Improved Burst"
-		"upgrade_magic_shock_desc"	"Abilities deal <span class=\"highlight\">bonus damage and slows</span> if they deal {s:MinimumDamage} damage or more in a single hit.<br/>Targets are immune to the effects of Improved Burst for <span class=\"highlight\">{s:ReProcLockoutTime}s</span> after taking damage from it."
+		"upgrade_magic_shock_desc"	"Abilities deal bonus <span class=\"highlight\">Spirit Damage</span> if they deal {s:MinimumDamage} damage or more in a single hit.<br/>Targets are immune to the effects of Improved Burst for <span class=\"highlight\">{s:ReProcLockoutTime}s</span> after taking damage from it."
 		MagicShockDamage_label		"Max Health Bonus Damage"
 		MagicShockDamage_postfix	"%"
 
 		"upgrade_tech_bleed"	"Mystic Reverb"
-		"upgrade_tech_bleed_desc" "Imbue an ability to deal an <span class=\"highlight\">additional {s:TechDamagePercent}% of the damage dealt</span> in a radius around the target after a short delay"
+		"upgrade_tech_bleed_desc" "Imbue an ability to apply <span class=\"highlight\">slow</span> and deal an <span class=\"highlight\">additional percentage of the damage dealt</span> in a radius around the target after a short delay."
 
 		"upgrade_toxic_bullets"		"Toxic Bullets"
-		"upgrade_toxic_bullets_desc"	"Your bullets build up a bleed on enemies, causing them to lose a <span class=\"highlight\">percentage of their current health</span> over time. Also <span class=\"highlight\">reduces the healing received</span> on the bleeding target."
+		"upgrade_toxic_bullets_desc"	"Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage of their current health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target."
 
 		"upgrade_attack_speed_2"			"Improved Fire Rate"
-		"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">fire rate</span>."
+		"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		"upgrade_tech_overflow"			"Spiritual Overflow"
-		"upgrade_tech_overflow_desc"	"Gain bonus Spirit Power by <span class=\"highlight\">charging up</span> with your bullets on enemy heroes."
+		"upgrade_tech_overflow_desc"	"Gain bonus <span class=\"highlight\">Spirit Power</span> by <span class=\"highlight\">charging up</span> with your bullets on enemy heroes."
 		"modifier_tech_overflow"		"Spiritual Overflow"
 		"modifier_tech_overflow_building" "Spiritual Overflow Building..."
 
@@ -410,45 +410,45 @@
 		"upgrade_height_advantage_desc"	"Gain additional <span class=\"highlight_weapon\">{s:HighGroundBonusWeaponPower}% Weapon Damage</span> when attacking targets that are <span class=\"highlight\">below you</span>."
 
 		"upgrade_close_range"		"Close Quarters"
-		"upgrade_close_range_desc"	"Gain additional <span class=\"highlight\">weapon damage</span> when in <span class=\"highlight\">close range</span> to your target."
+		"upgrade_close_range_desc"	"Deal additional <span class=\"highlight\">Weapon Damage</span> when in <span class=\"highlight\">close range</span> to your target."
 
 		"upgrade_long_range"		"Long Range"
-		"upgrade_long_range_desc"	"Gain additional weapon damage when <span class=\"highlight\">beyond a minimum distance</span> from your target."
+		"upgrade_long_range_desc"	"Deal additional <span class=\"highlight\">Weapon Damage</span> when <span class=\"highlight\">beyond a minimum distance</span> from your target."
 
 		"upgrade_crackshot"		"Mystic Shot"
-		"upgrade_crackshot_desc"	"Your next bullet has <span class=\"highlight\">bonus spirit damage</span>."
+		"upgrade_crackshot_desc"	"Your next bullet deals bonus <span class=\"highlight\">Spirit Damage</span>."
 		"ProcBonusMagicDamage_prefix"	"{s:sign}"
 		"ProcBonusMagicDamage_label"	"Spirit Damage"
 
-		"upgrade_medic_bullets"		"Medic Bullets"
+		"upgrade_medic_bullets"		"Restorative Shot"
 		"upgrade_medic_bullets_desc"	"Your next bullet will <span class=\"highlight\">heal</span> you based on what target you hit."
 		"HealFromHero_label"	"Healing From Heroes"
 		"HealFromNPC_label"	 "Healing From NPCs"
 
 		"upgrade_close_quarter_combat"		"Point Blank"
-		"upgrade_close_quarter_combat_desc"	"When in <span class=\"highlight\">close range</span> to your target, gain <span class=\"highlight\">weapon damage</span> and your bullets apply a <span class=\"highlight\">movement slow</span>."
+		"upgrade_close_quarter_combat_desc"	"When in <span class=\"highlight\">close range</span> to your target, gain <span class=\"highlight\">Weapon Damage</span> and your bullets apply a <span class=\"highlight\">Movement Slow</span>."
 
 		"upgrade_headshot_booster"			"Headshot Booster"
-		"upgrade_headshot_booster_desc"		"Deal bonus damage with <span class=\"highlight\">headshots</span>."
+		"upgrade_headshot_booster_desc"		"Deal bonus <span class=\"highlight\">Weapon Damage</span> with <span class=\"highlight\">headshots</span>."
 
 		"upgrade_sharpshooter"					"Sharpshooter"
-		"upgrade_sharpshooter_desc"				"Gain additional weapon damage when <span class=\"highlight\">beyond a minimum distance</span> from your target."
-		"upgrade_sharpshooter_headshots_desc"	"Deal bonus damage with <span class=\"highlight\">headshots</span>."
+		"upgrade_sharpshooter_desc"				"Deal additional <span class=\"highlight\">Weapon Damage</span> when <span class=\"highlight\">beyond a minimum distance</span> from your target."
+		"upgrade_sharpshooter_headshots_desc"	"Deal bonus <span class=\"highlight\">Weapon Damage</span> with <span class=\"highlight\">headshots</span>."
 
 		"upgrade_banshee_slugs"					"Crippling Headshot"
-		"upgrade_banshee_slugs_headshots_desc"	"<span class=\"highlight\">Headshots</span> reduce target's <span class=\"highlight\">bullet and spirit resist</span>."
+		"upgrade_banshee_slugs_headshots_desc"	"<span class=\"highlight\">Headshots</span> reduce target's <span class=\"highlight\">Bullet and Spirit Resist</span>."
 		BulletResistReduction_label		"Bullet Resist Reduction"
 		BulletResistReduction_postfix	"%"
 		MagicResistReduction_label		"Spirit Resist Reduction"
 		MagicResistReduction_postfix	"%"
 		"upgrade_berserker"				"Berserker"
-		"upgrade_berserker_desc"		"Your <span class=\"highlight\">weapon damage</span> increases as you take sustained damage."
+		"upgrade_berserker_desc"		"Your <span class=\"highlight\">Weapon Damage</span> increases as you take sustained damage."
 
 		"upgrade_fervor"			"Frenzy"
 		"upgrade_fervor_passive"	"While you are <span class=\"highlight\">below {s:LowHealthThreshold}% health</span>, you gain stat bonuses."
 		"FervorTechResist_postfix"  "%"
 		"upgrade_tech_defense_shredders"		"Soul Shredder Bullets"
-		"upgrade_tech_defense_shredders_desc"	"Your bullets apply a debuff that <span class=\"highlight\">amplifies your spirit damage</span> against the target and grants you <span class=\"highlight\">spirit lifesteal</span> against them."
+		"upgrade_tech_defense_shredders_desc"	"Your bullets apply a debuff that amplifies your <span class=\"highlight\">Spirit Damage</span> against the target and grants you <span class=\"highlight\">Spirit Lifesteal</span> against them."
 		ShreddersTechAmp_label				"Spirit Amp"
 		ShreddersTechAmp_postfix			"%"
 
@@ -456,8 +456,8 @@
 		"upgrade_non_player_bonus_desc"		"Gain additional <span class=\"highlight_weapon\">{s:NonPlayerBonusWeaponPower}% Weapon Damage</span> when attacking <span class=\"highlight\">Troopers</span>, <span class=\"highlight\">Neutrals</span> and <span class=\"highlight\">Bosses</span>."
 
 		"upgrade_hollow_point_rounds"					"Hollow Point Ward"
-		"upgrade_hollow_point_rounds_desc"				"When you are <span class=\"highlight\">above {s:LifeThreshold}% health</span>, gain additional <span class=\"highlight\">weapon damage</span>."
-		"upgrade_hollow_point_rounds_shield_desc"		"Gain a <span class=\"highlight\">Spirit Shield</span> that blocks incoming spirit damage. The shield is restored when out of combat."
+		"upgrade_hollow_point_rounds_desc"				"When you are <span class=\"highlight\">above {s:LifeThreshold}% health</span>, deal additional <span class=\"highlight\">Weapon Damage</span>."
+		"upgrade_hollow_point_rounds_shield_desc"		"Gain a <span class=\"highlight\">Spirit Shield</span> that blocks incoming <span class=\"highlight\">Spirit Damage</span>. The shield is restored when out of combat."
 		
 		"upgrade_proc_disarm"			"Disarming Bullets"
 		"upgrade_proc_disarm_desc"		"Your bullets <span class=\"highlight\">disarm</span> enemies, them preventing them from shooting their weapon.  Victims are immune to disarming bullets for <span class=\"highlight\">{s:ImmunityDuration}s</span> after application expires."
@@ -466,13 +466,13 @@
 		"upgrade_glass_cannon_desc"		"Each hero kill grants <span class=\"highlight\">permanent +{s:BonusClipPerKill} ammo</span> (up to max of +{s:MaxClipBonus})."
 
 		"upgrade_surging_power"			"Vampiric Burst"
-		"upgrade_surging_power_active"	"For a brief time gain <span class=\"highlight\">lifesteal</span> and <span class=\"highlight\">increased fire rate</span>."
+		"upgrade_surging_power_active"	"Temporarily gain <span class=\"highlight\">Lifesteal</span> and <span class=\"highlight\">Fire Rate</span>."
 		ActiveBonusLifesteal_label		"Bullet Lifesteal"
 		ActiveBonusLifesteal_postfix	"%"
 
 		"upgrade_siphon_bullets"				"Siphon Bullets"
-		"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> to your target, gain <span class=\"highlight\">weapon damage</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies restore their stolen health when the debuff expires."
+		"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
+		"upgrade_siphon_bullets_desc_passive2"	"Your bullets temporarily <span class=\"highlight\">steal Max HP</span> from enemies. Enemies regain their stolen health when the debuff expires."
 		modifier_siphon_bullets_health_gain		"Siphon Bullets"
 		modifier_siphon_bullets_health_loss		"Siphon Bullets"
 		HealthSteal_label						"Max HP Steal Per Bullet"
@@ -498,7 +498,7 @@
 		"BaseBonusWeaponPower_prefix"					"+"
 
 		"upgrade_boxing_glove"							"Lifestrike"
-		"upgrade_boxing_glove_desc"						"Your <span class=\"highlight\">melee attack</span> against an enemy hero applies <span class=\"highlight\">movement slow</span> and <span class=\"highlight\">heals you</span> for {s:LifestealHeal} and {s:LifestealHealPercent}% of the melee damage done."
+		"upgrade_boxing_glove_desc"						"Your <span class=\"highlight\">Melee Attack</span> against an enemy hero applies <span class=\"highlight\">Movement Slow</span> and <span class=\"highlight\">heals you</span> for {s:LifestealHealPercent}% of the <span class=\"highlight\">Melee Damage</span> dealt plus {s:LifestealHeal}."
 		"BonusMeleeSpeed_label"							"Melee Speed"
 		"BonusMeleeSpeed_prefix"						"+"
 		"BonusMeleeSpeed_postfix"						"%"
@@ -529,7 +529,7 @@
 		"modifier_stabilizing_tripod_self_debuff"				"Field Sentry"
 
 		"upgrade_burst_fire"							"Burst Fire"
-		"upgrade_burst_fire_desc"						"Briefly gain <span class=\"highlight\">fire rate</span> after you start shooting."
+		"upgrade_burst_fire_desc"						"Briefly gain <span class=\"highlight\">Fire Rate</span> after you start shooting."
 		"upgrade_burst_fire/modifier_burst_fire_buff"	"Burst Fire"
 	
 		upgrade_arcane_eater							"Arcane Eater"
@@ -545,7 +545,7 @@
 		upgrade_titan_round							"Titanic Magazine"
 
 		upgrade_intensifying_clip					"Intensifying Magazine"
-		upgrade_intensifying_clip_desc				"Increases weapon damage as you continously fire your weapon. "
+		upgrade_intensifying_clip_desc				"Increases <span class=\"highlight\">Weapon Damage</span> as you continuously fire your weapon."
 		
 		BaseAttackDamagePercentAtMaxDuration_label		"Max Weapon Damage"
 		BaseAttackDamagePercentAtMaxDuration_postfix		"%"
@@ -564,12 +564,12 @@
 		BulletResistDuration_postfix			"s"
 
 		upgrade_critshot					"Lucky Shot"
-		upgrade_critshot_desc				"Your bullets have a chance to be empowered, causing them to deal <span class=\"highlight\">bonus damage</span> and <span class=\"highlight\">slow</span> on hit."
+		upgrade_critshot_desc				"Your bullets have a chance to be empowered, causing them to deal <span class=\"highlight\">bonus damage</span> and <span class=\"highlight\">Slow</span> on hit."
 		CritDamagePercent_label				"Bonus Damage"
 		CritDamagePercent_postfix			"%"
 
 		upgrade_veil_walker					"Veil Walker"
-		upgrade_veil_walker_desc			"Walking through a <span class=\"highlight\">cosmic veil</span> grants you movespeed-boosted <span class=\"highlight\">stealth</span>, restores <span class=\"highlight\">all bullet and spirit shields</span>, and grants bonus <span class=\"highlight\">fire rate</span> for your next magazine."
+		upgrade_veil_walker_desc			"Walking through a <span class=\"highlight\">cosmic veil</span> grants you <span class=\"highlight\">Stealth</span>, increased <span class=\"highlight\">Movement Speed</span>, restores all <span class=\"highlight\">Bullet and Spirit Shields</span>, and grants bonus <span class=\"highlight\">Fire Rate</span> for your next magazine."
 		VeilWalker_MoveSpeed_label			"Invis Move Speed"
 		VeilWalker_MoveSpeed_postfix		"m/s"
 
@@ -592,24 +592,26 @@
 		"NonHeroAbilityLifestealTooltipOnly_postfix"		"%"
 		
 		"upgrade_magic_vulnerability"		"Mystic Vulnerability"
-		"upgrade_magic_vulnerability_desc"	"When the target takes <span class=\"highlight\">spirit damage</span>, they have their <span class=\"highlight\">spirit resistance</span> reduced."		
+		"upgrade_magic_vulnerability_desc"	"When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Spirit Resist</span> reduced."		
 
 		"upgrade_healbane"		"Healbane"
-		"upgrade_healbane_desc"	"Your spirit damage applies <span class=\"highlight\">healing suppression</span>. If an enemy hero dies under this effect, you <span class=\"highlight\">receive a large heal</span>."
+		"upgrade_healbane_desc"	"Your <span class=\"highlight\">Spirit Damage</span> applies <span class=\"highlight\">Healing Reduction</span>. If an enemy hero dies under this effect, you receive a large heal."
 		HealOnKill_label		"Heal On Hero Kill"
 
 		"upgrade_magic_slow"		"Mystic Slow"
-		"upgrade_magic_slow_desc"	"When the target takes <span class=\"highlight\">spirit damage</span>, they have their <span class=\"highlight\">movement speed</span> and <span class=\"highlight\">fire rate</span> reduced."
+		"upgrade_magic_slow_desc"	"When the target takes <span class=\"highlight\">Spirit Damage</span>, they have their <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Fire Rate</span> reduced."
 
 		"upgrade_escalating_exposure"		"Escalating Exposure"
-		"upgrade_escalating_exposure_desc"	"Applying <span class=\"highlight\">spirit damage</span> applies a <span class=\"highlight\">stacking spirit vulnerability</span> that increases your spirit damage to them. This effect can only happen once every {s:ProcCooldown}s per target."
+		"upgrade_escalating_exposure_desc"	"Dealing <span class=\"highlight\">Spirit Damage</span> applies a stacking <span class=\"highlight\">Spirit Amp</span> that increases your <span class=\"highlight\">Spirit Damage</span> to the target. The first stack has double the Spirit Amp value."
 		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Reduced Spirit Armor"
-		
+		EscalatingExposureProcCooldown_label	"Max Frequency Per Target"
+		EscalatingExposureProcCooldown_postfix	"s"
+
 		"upgrade_magic_reach"				"Mystic Reach"
-		"upgrade_magic_reach_desc"			"Increases the <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span> of your abilities and mods."
+		"upgrade_magic_reach_desc"			"Increases the <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span> of your abilities and items."
 
 		"upgrade_tech_range"				"Improved Reach"
-		"upgrade_tech_range_desc"			"Increases the <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span> of your abilities and mods."
+		"upgrade_tech_range_desc"			"Increases the <span class=\"highlight\">range</span> and <span class=\"highlight\">effect radius</span> of your abilities and items."
 
 		"upgrade_long_range_slowing_tech"				"Omni Spirit"
 		"upgrade_long_range_slowing_tech_desc"		"Applies a <span class=\"highlight\">movement slow</span> to enemies when dealing spirit damage."
@@ -621,10 +623,10 @@
 		"upgrade_tech_range_2_desc"		"Increases your spirit <span class=\"highlight\">range</span>, <span class=\"highlight\">aura radius</span>, and <span class=\"highlight\">effect radius</span>."
 		
 		"upgrade_magic_tempo"		"Improved Cooldown"
-		"upgrade_magic_tempo_desc"	"Reduces the <span class=\"highlight\">cooldown</span> of your abilities and mods."
+		"upgrade_magic_tempo_desc"	"Reduces the <span class=\"highlight\">Cooldown</span> of your abilities and items."
 
 		"upgrade_cooldown_reduction"		"Superior Cooldown"
-		"upgrade_cooldown_reduction_desc"	"Reduces the <span class=\"highlight\">cooldown</span> of your abilities and mods."
+		"upgrade_cooldown_reduction_desc"	"Reduces the <span class=\"highlight\">Cooldown</span> of your abilities and items."
 
 		"upgrade_recharge_duration_reduction"			"Spiritual Recharge"
 		"upgrade_recharge_duration_reduction_desc"		"Reduces the <span class=\"highlight\">recharge duration<%s> of your ability chages."
@@ -646,18 +648,18 @@
 		"CooldownReductionOnChargedAbilities_prefix" "+"
 
 		"upgrade_thermal_detonator"				"Alchemical Fire"
-		"upgrade_thermal_detonator_desc"		"Throw a flask that explodes on contact, creating an area that does <span class=\"highlight\">increasing damage per second</span> and causes enemies to receive additional <span class=\"highlight\">weapon damage from your team</span>.<br>Deals {s:NonHeroReductionPercent}% less DPS vs non-heroes."
+		"upgrade_thermal_detonator_desc"		"Throw a flask that explodes on contact, creating an area that does increasing <span class=\"highlight\">Spirit Damage per second</span> and causes enemies to receive additional <span class=\"highlight\">Weapon Damage</span> from your team.<br><br>Deals {s:NonHeroReductionPercent}% less DPS vs non-heroes."
 		"BonusBaseWeaponDamageTaken_prefix"		"+"
 		"BonusBaseWeaponDamageTaken_label"		"Weapon Damage"
 		"BonusBaseWeaponDamageTaken_postfix"	"%"
 
 		"upgrade_fleetfoot_boots"				"Fleetfoot"
-		"upgrade_fleetfoot_boots_active_desc"	"Gain <span class=\"highlight\">bonus movement speed</span> and <span class=\"highlight\">temporary bonus ammo</span>."
-		"upgrade_fleetfoot_boots_passive_desc"	"Removes the <span class=\"highlight\">movement speed penalty</span> while shooting."
+		"upgrade_fleetfoot_boots_active_desc"	"Gain bonus <span class=\"highlight\">Movement Speed</span> and <span class=\"highlight\">Ammo</span>."
+		"upgrade_fleetfoot_boots_passive_desc"	"Removes the <span class=\"highlight\">Movement Speed</span> penalty while shooting."
 		modifier_fleetfoot_boots				"Fleetfoot"
 
 		"upgrade_kinetic_sash"			"Kinetic Dash"
-		"upgrade_kinetic_sash_desc"		"Your next <span class=\"highlight\">Dash-jump</span> does not cost an extra stamina and you gain <span class=\"highlight\">fire rate</span> and <span class=\"highlight\">temporary bonus ammo</span> until your next reload. Lasts up to {s:AbilityDuration}s."
+		"upgrade_kinetic_sash_desc"		"Your next <span class=\"highlight\">Dash-Jump</span> does not cost an extra stamina and you gain <span class=\"highlight\">Fire Rate</span> and bonus <span class=\"highlight\">Ammo</span> until your next reload. Lasts up to {s:AbilityDuration}s."
 		modifier_kinetic_sash_triggered	"Kinetic Dash"
 
 		"upgrade_active_reload"			"Active Reload"
@@ -678,10 +680,10 @@
 		"upgrade_succor_desc"				"<span class=\"highlight\">Pulls</span> the targeted teammate out of battle and brings them next to you."
 		
 		"upgrade_containment"				"Slowing Hex"
-		"upgrade_containment_desc"			"Deals <span class=\"highlight\">damage</span> and <span class=\"highlight\">slows</span> the target, as well as <span class=\"highlight\">silencing their movement-based abilities</span>.<br>Does not affect target's stamina usage."
+		"upgrade_containment_desc"			"Deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> the target, as well as <span class=\"highlight\">Silencing their movement-based abilities</span>.<br>Does not affect target's stamina usage."
 
 		"upgrade_withering_whip"			"Withering Whip"
-		"upgrade_withering_whip_desc"		"Target an enemy to <span class=\"highlight\">disarm</span> them and reduce their <span class=\"highlight\">bullet resist</span>."
+		"upgrade_withering_whip_desc"		"Target an enemy to <span class=\"highlight\">Disarm</span> them and reduce their <span class=\"highlight\">Bullet Resist</span>."
 		modifier_withering_whip_debuff		"Disarmed"
 		MagicAmp_label						"Spirit Amp"
 		MagicAmp_postfix					"%"
@@ -691,7 +693,7 @@
 		SpiritPower_prefix					"+"
 
 		"upgrade_self_bubble"				"Ethereal Shift"
-		"upgrade_self_bubble_desc"			"You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain <span class=\"highlight\">bonus Spirit</span>.<br>Press [{s:in_mantle}] to cancel early."
+		"upgrade_self_bubble_desc"			"You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you cannot move or perform any actions. Afterwards you <span class=\"highlight\">instantly reload</span> and gain bonus <span class=\"highlight\">Spirit Power</span>.<br>Press [{s:in_mantle}] to cancel early."
 		ShiftingVeilDuration_label			"Duration"
 		ShiftingVeilDuration_postfix		"s"
 		BonusSpiritDuration_label			"Bonus Spirit Duration"
@@ -708,16 +710,16 @@
 		"upgrade_quarantine_desc"			"Quarantine an enemy Hero, making them <span class=\"highlight\">invincible</span> but also <span class=\"highlight\">silencing and disarming</span> them."
 		
 		"upgrade_rescue_beam"			"Rescue Beam"
-		"upgrade_rescue_beam_desc"		"<span class=\"highlight\">Heals</span> a target allied <span class=\"highlight\">Hero</span> and yourself for a percentage max health. Once while healing, you can <span class=\"highlight\">Pull</span> the target towards. Can be self-cast."
+		"upgrade_rescue_beam_desc"		"<span class=\"highlight\">Heals</span> a target allied hero and yourself for a percentage of <span class=\"highlight\">Max Health</span>. Once while healing, you can <span class=\"highlight\">Pull</span> the target towards you. Can be self-cast."
 		"SelfModifier_label"			"Self Modifier"
 		"SelfModifier_postfix"			"%"
 		"upgrade_rescue_beam_pull"		"Pull Target"
 		
-		"upgrade_duration_extender"			"Duration Extender"
-		"upgrade_duration_extender_desc"	"Increases <span class=\"highlight\">duration</span> of your abilities and mods by <span class=\"highlight\">{s:NonImbuedBonusDuration}%</span>."
+		"upgrade_duration_extender"			"[Deprecated] Duration Extender"
+		"upgrade_duration_extender_desc"	"Increases <span class=\"highlight\">Duration</span> of your abilities and items by <span class=\"highlight\">{s:NonImbuedBonusDuration}%</span>."
 
 		"upgrade_slowing_tech"				"Slowing Spirit"
-		"upgrade_slowing_tech_desc"		"Your spirit damage <span class=\"highlight\">slows</span> your target's movement."
+		"upgrade_slowing_tech_desc"		"Dealing <span class=\"highlight\">Spirit Damage</span> applies <span class=\"highlight\">Movement Slows</span> to your target."
 
 		"upgrade_tech_3"					"Energy"
 		"upgrade_tech_3_desc"				"Large increase in <span class=\"highlight\">Energy</span>."
@@ -731,10 +733,10 @@
 		"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		"upgrade_cold_front"				"Cold Front"
-		"upgrade_cold_front_desc"			"Release an expanding ice blast that deals <span class=\"highlight\">damage</span> and <span class=\"highlight\">slows</span> targets it hits."
+		"upgrade_cold_front_desc"			"Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits."
 		
 		"upgrade_target_stun"				"Knockdown"
-		"upgrade_target_stun_desc"			"Target is <span class=\"highlight\">knocked down</span> and <span class=\"highlight\">stunned</span> after a <span class=\"highlight\">{s:StunDelay} second delay</span>, interrupting and temporarily preventing them from taking any action."
+		"upgrade_target_stun_desc"			"Target is <span class=\"highlight\">knocked down</span> and <span class=\"highlight\">Stunned</span> after a <span class=\"highlight\">{s:StunDelay} second delay</span>, interrupting and temporarily preventing them from taking any action."
 		
 		"upgrade_aoe_root"				"Vacuum Web"
 		"upgrade_aoe_root_active"		"Throw a <span class=\"highlight\">vacuum</span> grenade, pulling all enemies into a small area where they remain <span class=\"highlight\">tethered</span>."
@@ -743,17 +745,17 @@
 		"upgrade_tech_cleave_desc"			"Your Tech attacks strike additional nearby enemies for <span class=\"highlight\">75% of the total damage</span>."
 
 		"upgrade_tech_armor_reduction_aura"		"Spirit Armor Reduction Aura"
-		"upgrade_tech_armor_reduction_aura_desc"	"Increases <span class=\"highlight\">spirit damage</span> taken by nearby enemies."
+		"upgrade_tech_armor_reduction_aura_desc"	"Increases <span class=\"highlight\">Spirit Damage</span> taken by nearby enemies."
 		
 		"upgrade_camouflage"						"Camouflage Suit"
 		"upgrade_camouflage_desc"					"Go <span class=\"highlight\">invisible</span> and maintain invisibility by <span class=\"highlight\">not moving or attacking</span>.  Taking damage will not reveal the Hero.  Bonus Regen while Invisible."
 
 		"upgrade_glitch"						"Curse"
-		"upgrade_glitch_desc"					"Curses an enemy - <span class=\"highlight\">interrupting, silencing, disarming</span>, and <span class=\"highlight\">preventing item usage</span>."
+		"upgrade_glitch_desc"					"Curses an enemy - <span class=\"highlight\">interrupting, Silencing, Disarming</span>, and <span class=\"highlight\">preventing item usage</span>."
 		"upgrade_glitch/modifier_glitch_debuff"	"Cursed!"
 
 		"upgrade_bullet_resist_shredder"			"Bullet Resist Shredder"
-		"upgrade_bullet_resist_shredder_desc"	"Reduces <span class=\"highlight\">bullet resist</span> on enemies when you deal spirit damage."
+		"upgrade_bullet_resist_shredder_desc"	"Reduces <span class=\"highlight\">Bullet Resist</span> on enemies when you deal <span class=\"highlight\">Spirit Damage</span>."
 		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "Reduced bullet armor"
 
 		"upgrade_weapon_eater"					"Weapon Eater"
@@ -771,13 +773,13 @@
 		"upgrade_imbued_ability_passive2"		"Your spirit damage <span class=\"highlight\">slows</span> your target's movement."
 		
 		"upgrade_arcane_extension"		"Duration Extender"
-		"upgrade_arcane_extension_desc"	"Increases the <span class=\"highlight\">duration</span> of your abilities and mods."
+		"upgrade_arcane_extension_desc"	"Increases the <span class=\"highlight\">Duration</span> of your abilities and items."
 
 		"upgrade_imbued_duration_extender"		"Superior Duration"
-		"upgrade_imbued_duration_extender_desc"	"Increases the <span class=\"highlight\">duration</span> of your abilities and mods."
+		"upgrade_imbued_duration_extender_desc"	"Increases the <span class=\"highlight\">duration</span> of your abilities and items."
 
 		"upgrade_diviners_kevlar"				"Diviner's Kevlar"
-		"upgrade_diviners_kevlar_desc"			"Upon casting an <span class=\"highlight\">ultimate ability</span> gain a temporary <span class=\"highlight\">bullet shield</span> and bonus to <span class=\"highlight\">Spirit</span>."
+		"upgrade_diviners_kevlar_desc"			"Upon casting an <span class=\"highlight\">ultimate ability</span> gain temporary <span class=\"highlight\">Bullet Shield, Spirit Shield,</span> and <span class=\"highlight\">Spirit Power</span>."
 		"BonusChannelTechPower_label"			"Spirit Power While Channeling"
 		"BonusChannelTechPower_prefix"			"+"
 		"BonusChannelTimePercentage_label"		"Channel Duration"
@@ -789,11 +791,11 @@
 		"upgrade_infuser_desc"			"Gain <span class=\"highlight\">Spirit Power</span> and <span class=\"highlight\">Spirit Lifesteal</span>."
 
 		"upgrade_acolytes_glove"				"Spirit Strike"
-		"upgrade_acolytes_glove_desc"			"When you perform a <span class=\"highlight\">light or heavy melee</span> attack against a hero, gain <span class=\"highlight\">temporary Spirit Power</span>."
+		"upgrade_acolytes_glove_desc"			"When you perform a <span class=\"highlight\">Light or Heavy Melee</span> attack against a hero, gain temporary <span class=\"highlight\">Spirit Power</span>."
 		modifier_acolytes_glove_triggered		"Spirit Strike"
 
 		"upgrade_melee_charge"					"Melee Charge"
-		"upgrade_melee_charge_desc"				"Increases your melee charge distance. When you perform a <span class=\"highlight\">heavy melee</span> attack against an enemy, your weapon <span class=\"highlight\">reloads instantly</span>."
+		"upgrade_melee_charge_desc"				"Increases your <span class=\"highlight\">Heavy Melee</span> charge distance. When you perform a <span class=\"highlight\">Heavy Melee</span> attack against an enemy, your weapon <span class=\"highlight\">reloads instantly</span>."
 
 		"upgrade_charmed_wraps"					"Charmed Wraps"
 		"upgrade_charmed_wraps_desc"			"Your abilities get their <span class=\"highlight\">cooldowns reduced</span> when you perform a <span class=\"highlight\">heavy melee</span> attack against a hero (or <span class=\"highlight\">two light melee</span> attacks within {s:LightMeleeTimeWindow}s)."
@@ -804,15 +806,15 @@
 		ClarityBonusSpirit_label				"Next Ability Bonus Spirit Power"
 
 		"upgrade_magic_storm"					"Surge of Power"
-		"upgrade_magic_storm_desc"				"Imbue an ability with <span class=\"highlight\">bonus Spirit Power</span>.  When that ability is used, gain <span class=\"highlight\">bonus movement speed</span>."
+		"upgrade_magic_storm_desc"				"Imbue an ability with <span class=\"highlight\">permanent Spirit Power</span>. When that ability is used, gain bonus <span class=\"highlight\">Movement Speed</span>."
 		modifier_upgrade_magic_storm			"Surge of Power"
 
 		upgrade_suppressor						"Suppressor"
-		upgrade_suppressor_desc					"When you deal <span class=\"highlight\">spirit damage</span> to enemies, you also apply <span class=\"highlight\">fire rate slow</span>."
+		upgrade_suppressor_desc					"When you deal <span class=\"highlight\">Spirit Damage</span> to enemies, you also apply <span class=\"highlight\">Fire Rate Slow</span>."
 		suppressor_debuff						"Fire Rate Slow"
 
 		upgrade_quick_silver					"Quicksilver Reload"
-		upgrade_quick_silver_desc				"Imbue an ability with <span class=\"highlight\">bonus damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">fire rate</span> bonus for that clip."
+		upgrade_quick_silver_desc				"Imbue an ability with bonus <span class=\"highlight\">Spirit Damage</span> on the first hit.  When the ability is used, your weapon is <span class=\"highlight\">reloaded</span> and has a <span class=\"highlight\">Fire Rate</span> bonus for that clip."
 		modifier_quick_silver_buff				"+Fire Rate"
 
 		//-----------------------------------------------------------------------------
@@ -829,16 +831,18 @@
 		"upgrade_health_regen_1_desc"					"Increases <span class=\"highlight\">health regen</span>."
 
 		"upgrade_health_stimpak"						"Healing Rite"
-		"upgrade_health_stimpak_desc"					"<span class=\"highlight\">Regen</span> the target over time. Regen is dispelled if you take damage from enemy players or objectives. Can be self-cast."
+		"upgrade_health_stimpak_desc"					"<span class=\"highlight\">Regen</span> the target over time. <span class=\"highlight\">Regen</span> is dispelled if you take damage from enemy players or objectives. Can be self-cast."
 
 		"upgrade_savior"					"Divine Barrier"
-		"upgrade_savior_desc"				"Provide the target with <span class=\"highlight\">bullet shield, magic shield, and movement speed</span>. Can be self-cast."
+		"upgrade_savior_desc"				"Provide the target with <span class=\"highlight\">Bullet Shield, Spirit Shield, and Movement Speed</span>. Can be self-cast."
 		SaviorBulletShieldHealth_label		"Bullet Shield"
 		SaviorMagicShieldHealth_label		"Spirit Shield"
+		BuffDuration_label					"Duration"
+		BuffDuration_postfix				"s"
 
 		"upgrade_restorative_locket"					"Restorative Locket"
-		"upgrade_restorative_locket_passive_desc"		"When an enemy uses an ability within {s:Radius}m range from you, store one restoration stack."
-		"upgrade_restorative_locket_active_desc"		"Consume all stacks to <span class=\"highlight\">heal yourself</span>."
+		"upgrade_restorative_locket_passive_desc"		"When an enemy uses an ability within {s:Radius}m range from you, store one <span class=\"highlight\">Restoration Stack</span>."
+		"upgrade_restorative_locket_active_desc"		"Consume all stacks to <span class=\"highlight\">heal target ally</span>.  Can be self-cast."
 		modifier_restorative_locket_stacks				"Restorative Locket"
 		HealPerStack_label								"Heal Per Stack"
 
@@ -872,7 +876,7 @@
 		upgrade_cheat_death_unkillable_passive	"When the owner would take otherwise lethal damage, they instead become <span class=\"highlight\">temporarily death immune</span>. While death immune, the rate of the damage pulse is greatly increased."
 
 		"upgrade_healing_booster"			"Healing Booster"
-		"upgrade_healing_booster_desc"		"Increases the effectiveness of your <span class=\"highlight_armor\">healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span>."
+		"upgrade_healing_booster_desc"		"Increases the effectiveness of your <span class=\"highlight_armor\">Healing</span> by <span class=\"highlight\">{s:HealAmpRegenPercent}%</span>."
 
 		"upgrade_health"								"Extra Health"
 		"upgrade_health_desc"							"Increase <span class=\"highlight\">health</span>."
@@ -880,9 +884,9 @@
 		"upgrade_proc_melee_stun"						"Melee Knockdown"
 		"upgrade_proc_melee_stun_desc"					"The 3rd hit of your <span class=\"highlight\">melee combo</span> will <span class=\"highlight\">stun</span> enemies."
 		
-		"upgrade_reduce_debuff_duration"				"Debuff Remover"
+		"upgrade_reduce_debuff_duration"				"Debuff Reducer"
 		"upgrade_reduce_debuff_duration_desc"			"Reduces the <span class=\"highlight\">duration</span> of all negative effects applied to you."
-		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Remove all debuffs</span>. Cannot be used while stunned or slept."
+		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Significantly</span> reduce the <span class=\"highlight\">remaining duration</span> of all negative effects currently applied to you. If any effects were reduced, gain a <span class=\"highlight\">movement speed bonus</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
 
 		"upgrade_high_impact_armor"						"High Impact Armor"
 		"upgrade_high_impact_armor_desc"				"Provides protection against high-damage bullets. Any <span class=\"highlight\">bullet damage</span> portion above the threshold is reduced by {s:DamageReduction}%."
@@ -917,8 +921,8 @@
 		"upgrade_deflector_shield_desc"				"Adds <span class=\"highlight\">bullet armor</span>, and provides a shield that absorbs bullet damage. Shield regens out of combat (10s no damage)."
 		
 		"upgrade_chonky"								"Fortitude"
-		"upgrade_chonky_desc"							"After not taking damage for <span class=\"highlight\">{s:RestoreDelay}s</span>, gain <span class=\"highlight\">{s:HealLifePercentOutOfCombat}% max health regen</span>."
-		"upgrade_chonky_high_health_passive_desc"		"When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">weapon damage</span> and <span class=\"highlight\">movement speed</span>."
+		"upgrade_chonky_desc"							"After not taking damage for <span class=\"highlight\">{s:RestoreDelay}s</span>, gain <span class=\"highlight\">{s:HealLifePercentOutOfCombat}% Max Health Regen</span>."
+		"upgrade_chonky_high_health_passive_desc"		"When you are <span class=\"highlight\">above {s:HealthThreshold}% health</span>, you have bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Movement Speed</span>."
 
 		"upgrade_damage_recycler"						"Leech"
 		"upgrade_damage_recycler_desc"				"Efficiently provides <span class=\"highlight_armor\">healing</span> based on all <span class=\"highlight\">damage inflicted</span> to enemies. Healing reduced on Non-Heroes"
@@ -929,7 +933,7 @@
 		RespawnDelay_postfix						"s"
 
 		"upgrade_phantom_strike"				"Phantom Strike"
-		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">Teleport</span> to an enemy target, dealing <span class=\"highlight\">damage</span> and applying <span class=\"highlight\">slow</span>."
+		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">Teleport</span> to an enemy target, dealing <span class=\"highlight\">damage</span> and applying <span class=\"highlight\">Slow</span>."
 
 		"upgrade_rebirth"						"Rebirth"
 		"upgrade_rebirth_passive"				"If you die, after {s:RespawnDelay}s you will <span class=\"highlight\">respawn at your death location</span>. On your second life you have a <span class=\"highlight\">large amount of bonus health</span>."
@@ -960,13 +964,13 @@
 		"upgrade_regenerative_armor_desc"	"Gain a short burst of health regeneration when taking bullet damage from heroes"
 
 		"upgrade_regenerating_bullet_shield"		"Combat Barrier"
-		"upgrade_regenerating_bullet_shield_desc"	"While you have a bullet shield, gain <span class=\"highlight\">weapon damage</span>."
+		"upgrade_regenerating_bullet_shield_desc"	"While you have a <span class=\"highlight\">Bullet Shield</span>, gain <span class=\"highlight\">Weapon Damage</span>."
 		"BonusBaseWeaponDamageWithShield_label"		"Weapon Damage While Shielded"
 		"BonusBaseWeaponDamageWithShield_postfix"	"%"
 		"BonusBaseWeaponDamageWithShield_prefix"	"+"
 
 		"upgrade_magic_shield"			"Enchanter's Barrier"
-		"upgrade_magic_shield_desc"		"While you have a <span class=\"highlight\">spirit shield</span>, gain <span class=\"highlight\">bonus Spirit Power</span>."
+		"upgrade_magic_shield_desc"		"While you have a <span class=\"highlight\">Spirit Shield</span>, gain bonus <span class=\"highlight\">Spirit Power</span>."
 		"BonusSpiritWithMagicShield_label"		"Spirit Power While Shielded"
 		"BonusSpiritWithMagicShield_prefix"		"+"
 
@@ -984,10 +988,10 @@
 		"upgrade_frenzy/modifier_frenzy_aura/modifier_frenzy_kill"		"Killed Frenzy"
 
 		upgrade_unstoppable						"Unstoppable"
-		upgrade_unstoppable_desc				"Gain Spirit Resist, suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">immune</span> to <span class=\"highlight\">stun, silence, sleep, root, disarm, and tether</span>."
+		upgrade_unstoppable_desc				"Gain <span class=\"highlight\">Spirit Resist</span>, suppress <span class=\"highlight\">negative status effects</span> and become <span class=\"highlight\">Immune</span> to <span class=\"highlight\">Stun, Silence, Sleep, Root, and Disarm</span>."
 		
 		upgrade_colossus				"Colossus"
-		upgrade_colossus_desc			"Gain <span class=\"highlight\">Bullet and Spirit Resist</span>, and <span class=\"highlight\">slow enemies nearby</span>. Your model size grows by 10%."
+		upgrade_colossus_desc			"Gain <span class=\"highlight\">Bullet and Spirit Resist</span>, and <span class=\"highlight\">Slow</span> enemies nearby. Your model size grows by 20%."
 
 		"upgrade_ablative_coat"					"Ablative Coat"
 		"upgrade_ablative_coat_desc"			"Provides <span class=\"highlight\">Bullet Resist</span> but you lose some each time you take Weapon Damage. Loss can only happen once every {s:StackLossFrequency}s. Bullet Resist is restored when out of combat."
@@ -1001,12 +1005,12 @@
 		"upgrade_sprint_booster_desc"				"Increases your <span class=\"highlight\">forward movement speed</span> over time. Taking damage resets the effect for <span class=\"highlight\">1.5s</span>"
 
 		"upgrade_superior_stamina"					"Superior Stamina"
-		"upgrade_superior_stamina_passive"			"Increases the number of <span class=\"highlight\">air dashes</span> and <span class=\"highlight\">air jumps</span> that can be performed before landing from <span class=\"highlight\">1 to 2</span>.<br><br>If a second air jump or dash is performed, gain a <span class=\"highlight\">Spirit bonus</span> for {s:BonusDuration}s."
+		"upgrade_superior_stamina_passive"			"Increases the number of <span class=\"highlight\">Air Dashes</span> and <span class=\"highlight\">Air Jumps</span> that can be performed before landing from <span class=\"highlight\">1 to 2</span>"
 
 		"upgrade_improved_stamina"					"Extra Stamina"
 
 		"upgrade_cardio_calibrator"					"Enduring Speed"
-		"upgrade_cardio_calibrator_desc"			"Reduces the effect of enemy movement slows."
+		"upgrade_cardio_calibrator_desc"			"Reduces the effect of enemy <span class=\"highlight\">Movement Slow</span>."
 
 		"upgrade_health_nova"						"Health Nova"
 		"upgrade_health_nova_desc"					"<span class=\"highlight\">Heal</span> yourself and nearby allies. Heals an additional {s:HeroTargetBonus}% per ally."
@@ -1018,8 +1022,8 @@
 		"upgrade_cloaking_device_desc"				"Become <span class=\"highlight\">invisible</span>. Nearby enemies will temporaily reveal the hero.  Attacking or taking damage will remove the invisibility for {s:AbilityCooldown}s."
 		
 		"upgrade_cloaking_device_active"			"Shadow Weave"
-		"upgrade_cloaking_device_active_desc"		"Become <span class=\"highlight\">stealthed</span>. Whenever you take damage while stealthed you get briefly revealed."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Attacking or using an ability will end your stealth and start an <span class=\"highlight\">ambush</span>, temporarily granting you bonus <span class=\"highlight\">fire rate</span> and <span class=\"highlight\">Spirit Power</span>."
+		"upgrade_cloaking_device_active_desc"		"Become <span class=\"highlight\">Stealthed</span>. Whenever you take damage while Stealthed you get briefly revealed."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Attacking or using an ability will end your stealth and start an <span class=\"highlight\">ambush</span>, temporarily granting you bonus <span class=\"highlight\">Fire Rate</span> and <span class=\"highlight\">Spirit Power</span>."
 		modifier_cloaking_device_active_stealth		"Shadow Weave - Stealth"
 		modifier_cloaking_device_active_ambush		"Shadow Weave - Ambush"
 		AmbushBonusTechPower_prefix					"+"
@@ -1039,7 +1043,7 @@
 		"upgrade_rocket_boots_desc"					"<span class=\"highlight\">Launch yourself</span> high into the air. Cannot be used for {s:InteruptCooldown}s if damaged by enemy Hero."
 		
 		"upgrade_rocket_booster"					"Majestic Leap"
-		"upgrade_rocket_booster_desc"				"<span class=\"highlight\">Launch yourself</span> high into the air. While in the air, you can use the active again to drop down faster.<br>Cannot be used for {s:InteruptCooldown}s if damaged by enemy Hero."
+		"upgrade_rocket_booster_desc"				"<span class=\"highlight\">Launch yourself</span> high into the air. While in the air, you can use the active again to drop down faster.<br>Cannot be used for {s:InteruptCooldown}s if attacked by enemy Hero."
 		"upgrade_rocket_booster_drop_down"			"Drop Down"
 		
 		"upgrade_aoe_smoke_bomb"					"Smoke"
@@ -1055,14 +1059,14 @@
 		"upgrade_tech_defender_active"		"Protect against <span class=\"highlight\">all spirit damage and debuffs</span>."
 
 		"upgrade_disarm"				"Drain Will"
-		"upgrade_disarm_desc"			"Fires a projectile which <span class=\"highlight\">slows the fire rate</span> of the target and <span class=\"highlight\">steals Spirit</span>."
+		"upgrade_disarm_desc"			"Fires a projectile which reduces the <span class=\"highlight\">Fire Rate</span> of the target and <span class=\"highlight\">steals Spirit</span>."
 		"SpiritSteal_label"				"Spirit Power Steal"
 		"SpiritStealDuration_label"		"Spirit Power Steal Duration"
 		"SpiritStealDuration_postfix"	"s"
 		"modifier_citadel_active_disarm_spirit_steal"	"Drain Will"
 
 		"upgrade_vex_barrier"			"Reactive Barrier"
-		"upgrade_vex_barrier_desc"		"Automatically deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">Stunned, Chained, Immobilized, or Slept</span>."
+		"upgrade_vex_barrier_desc"		"Automatically deploy temporary <span class=\"highlight\">Bullet and Spirit Shields</span> when you are <span class=\"highlight\">movement locked, Stunned, Chained, Immobilized, or Slept</span>."
 		"upgrade_vex_barrier_shield"	"Reactive Barrier"
 
 		"VexBarrierBulletMaxHealth_label"	"Bullet Shield Health"
