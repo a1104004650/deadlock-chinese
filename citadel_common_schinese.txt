@@ -920,7 +920,7 @@
 		"upgrade_tech_purge"						"强化幽冥护盾"
 
 		"upgrade_deflector_shield"						"弹道护盾"
-		"upgrade_deflector_shield_desc"				"增加<span class=\"highlight\">子弹护甲</span>，并提供一个吸收子弹伤害的盾牌。盾牌在战斗外（10秒无伤害）会恢复。",
+		"upgrade_deflector_shield_desc"				"增加<span class=\"highlight\">子弹护甲</span>，并提供一个吸收子弹伤害的盾牌。盾牌在战斗外（10秒无伤害）会恢复。"
 		
 		"upgrade_chonky"								"不屈之志"
 		"upgrade_chonky_desc"							"在不受到伤害<span class=\"highlight\">{s:RestoreDelay}s</span>后，获得<span class=\"highlight\">{s:HealLifePercentOutOfCombat}%的最大生命值恢复</span>。"
@@ -938,7 +938,7 @@
 		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">瞬移</span>到敌方目标，造成<span class=\"highlight\">伤害</span>并附加<span class=\"highlight\">减速</span>效果。"
 
 		"upgrade_rebirth"						"涅槃"
-		"upgrade_rebirth_passive"				"如果你死亡，在{s:RespawnDelay}秒后你将<span class=\"highlight\">在死亡位置复活</span>。在复活后，你将获得<span class=\"highlight\">大量额外生命值</span>。"
+		"upgrade_rebirth_passive"				"如果你死亡，在{s:RespawnDelay}秒后你将在<span class=\"highlight\">死亡位置复活</span>。在复活后，你将获得额外大量<span class=\"highlight\">生命值</span>。"
 		
 		"upgrade_active_bullet_shield"					 "护卫屏障"
 		"upgrade_active_bullet_shield_desc"				 "为你和附近的盟军英雄及其小兵提供临时的<span class=\"highlight\">子弹屏障</span>。"
