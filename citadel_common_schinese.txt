@@ -480,7 +480,7 @@
 		HealthSteal_label						"每颗子弹的最大生命窃取量"
 
 		"upgrade_weapon_overdrive_clip"					"超频弹夹"
-		"upgrade_weapon_overdrive_clip_desc"			"激活超频弹夹，以最大生命值为基础对自己造成<span class=\"highlight\">非致命伤害</span>，并立即填满弹夹，无论当前子弹数如何。此弹夹中的子弹带有额外的<span class=\"highlight\">courage</span>。"
+		"upgrade_weapon_overdrive_clip_desc"			"激活超频弹夹，以最大生命值为基础对自己造成<span class=\"highlight\">非致命伤害</span>，并立即填满弹夹，无论当前子弹数如何。此弹夹中的子弹带有额外的<span class=\"highlight\">勇气</span>。"
 		"modifier_upgrade_overdrive_clip"				"超频弹夹"
 		"upgrade_weapon_overdrive_clip/modifier_upgrade_overdrive_clip_reload"		"超频重装"
 		"BonusReloadSpeed_label"						"装填间隔"
@@ -496,7 +496,7 @@
 		"modifier_burst_fire_actuator"					"连发激活器"
 		"BonusHeadshotDamage_label"						"额外爆头伤害"
 		"BonusHeadshotDamage_postfix"					"%"
-		"BaseBonusWeaponPower_label"					"Courage"
+		"BaseBonusWeaponPower_label"					"勇气"
 		"BaseBonusWeaponPower_prefix"					"+"
 
 		"upgrade_boxing_glove"							"灵能重击"
@@ -525,7 +525,7 @@
 		"StationaryRecoilReduction_label"					"静止状态下后坐力降低"
 		"StationaryRecoilReduction_postfix"					"%"
 		"StationaryWeaponPower_prefix"						"+"
-		"StationaryWeaponPower_label"					"静止时的courage加成"
+		"StationaryWeaponPower_label"					"静止时的勇气加成"
 		"CasterHealthPercent_label"						"施法者的生命值百分比"
 		"CasterHealthPercent_postfix"					"%"
 		"modifier_stabilizing_tripod_self_debuff"				"哨兵"
@@ -761,7 +761,7 @@
 		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "穿甲效果"
 
 		"upgrade_weapon_eater"					"歼灭者"
-		"upgrade_weapon_eater_desc"				"减少<span class=\"highlight_weapon\">{s:BaseBonusCounter}</span>的courage值。<br>击杀敌方英雄时获得<span class=\"highlight_weapon\">{s:WeaponPowerPerKill}courage值</span>（最多不超过<span class=\"highlight_weapon\">{s:MaxWeaponPower}</span>），但在<span class=\"highlight\">死亡</span>时会失去<span class=\"highlight_weapon\">{s:WeaponPowerPerDeath}获得的courage值</span>。如果在击杀敌人后的{s:KillWindow}秒内造成了伤害，则会应用额外奖励。 "
+		"upgrade_weapon_eater_desc"				"减少<span class=\"highlight_weapon\">{s:BaseBonusCounter}</span>的勇气值。<br>击杀敌方英雄时获得<span class=\"highlight_weapon\">{s:WeaponPowerPerKill}勇气值</span>（最多不超过<span class=\"highlight_weapon\">{s:MaxWeaponPower}</span>），但在<span class=\"highlight\">死亡</span>时会失去<span class=\"highlight_weapon\">{s:WeaponPowerPerDeath}获得的勇气值</span>。如果在击杀敌人后的{s:KillWindow}秒内造成了伤害，则会应用额外奖励。 "
 		"upgrade_weapon_eater/modifier_weapon_eater_display"			"歼灭者"
 
 		"upgrade_weapon_instant_reload"			"立即重装 + 超大弹匣"
@@ -867,7 +867,7 @@
 		"upgrade_double_jump_desc"					"允许你在空中进行额外的<span class=\"highlight\">跳跃</span>。"
 		
 		"upgrade_weapon_power_and_health_drain"		"动力过载"
-		"upgrade_weapon_power_and_health_drain_desc"	"在消耗你自己的<span class=\"highlight\">生命值</span>的同时，增加你的<span class=\"highlight\">Courage</span>。"	
+		"upgrade_weapon_power_and_health_drain_desc"	"在消耗你自己的<span class=\"highlight\">生命值</span>的同时，增加你的<span class=\"highlight\">勇气</span>。"	
 		
 		"upgrade_health_regen_aura"					"恢复光环"
 		"upgrade_health_regen_aura_desc"			"每<span class=\"highlight\">{s:HealInterval}秒</span>为你和附近的友方单位提供一次治疗。<br>效果不会叠加。"
