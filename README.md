@@ -11,3 +11,7 @@ deadlock汉化包
 \Project8Staging\game\citadel\resource
 
 如有翻译错误或不合理的位置欢迎指点。联系邮箱：1104004650@qq.com
+
+下载源地址（直接下载为ZIP包就行了，解压schinese文件覆盖即可）：
+https://gitee.com/stormtking/deadlock-chinese
+https://github.com/a1104004650/deadlock-chinese
