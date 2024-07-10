@@ -13,6 +13,8 @@ deadlock汉化包
 3.右键游戏属性找到游戏下载路径，点击浏览，覆盖文件（schinese后缀文件覆盖即可）
 \Project8Staging\game\citadel\resource
 
+注意：每次游戏更新都需要同步一次文件
+
 如有翻译错误或不合理的位置欢迎指点。联系邮箱：1104004650@qq.com
 
 下载源地址（直接下载为ZIP包就行了，解压schinese文件覆盖即可）：
