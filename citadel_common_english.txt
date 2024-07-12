@@ -314,9 +314,12 @@
 		"upgrade_proc_silence_desc"		"Your bullets charge up an <span class=\"highlight\">EMP</span> on enemy heroes that will <span class=\"highlight\">prevent targets from using abilities</span>. Victims are immune to emp bullets for <span class=\"highlight\">{s:ImmunityDuration}s</span> after application expires."
 
 		"upgrade_silencer"				"Silencer"
-		"upgrade_silencer_active"		"For the next {s:AbilityDuration}s, <span class=\"highlight\">all your bullets immediately apply Silence</span> and a <span class=\"highlight\">Movement Slow</span>.  Silence prevents targets from using abilities."
+		"upgrade_silencer_active"		"For the next {s:AbilityDuration}s, <span class=\"highlight\">all your bullets immediately apply Silence</span>. Silence prevents targets from using abilities."
 		"upgrade_silencer_passive1"		"Your bullets deal <span class=\"highlight\">+{s:BonusBulletDamageToEMPTargets}% damage to Silenced targets</span>."
 		"upgrade_silencer_passive2"		"Your bullets build up an <span class=\"highlight\">EMP</span> on enemy heroes, preventing them from using abilities."
+		"SilencerSlowPercent_label"		"Bullet Slow Proc"
+		"SilencerSlowPercent_postfix"	"%"
+		"SilencerSlowPercent_prefix"	"+"
 
 		"upgrade_proc_tech_damage"		"Magitech Rounds"
 		"upgrade_proc_tech_damage_desc"	"Your bullets also deal your <span class=\"highlight\">base bullet damage [{s:BaseDamagePerShot}] </span> as spirit damage.  Magitech Rounds receives <span class=\"highlight\">{s:SpellAmplificationMultiplier}x</span> amplification from <span class=\"highlight\">Spirit Power</span>. Shotguns split the damage between each pellet. This effect can only happen once every {s:ProcCooldown}s."
@@ -529,7 +532,7 @@
 		"modifier_stabilizing_tripod_self_debuff"				"Field Sentry"
 
 		"upgrade_burst_fire"							"Burst Fire"
-		"upgrade_burst_fire_desc"						"Briefly gain <span class=\"highlight\">Fire Rate</span> after you start shooting."
+		"upgrade_burst_fire_desc"						"Briefly gain <span class=\"highlight\">Fire Rate</span> when one of your bullets hits an enemy hero."
 		"upgrade_burst_fire/modifier_burst_fire_buff"	"Burst Fire"
 	
 		upgrade_arcane_eater							"Arcane Eater"
@@ -736,7 +739,7 @@
 		"upgrade_cold_front_desc"			"Release an expanding ice blast that deals <span class=\"highlight\">Spirit Damage</span> and <span class=\"highlight\">Slows</span> targets it hits."
 		
 		"upgrade_target_stun"				"Knockdown"
-		"upgrade_target_stun_desc"			"Target is <span class=\"highlight\">knocked down</span> and <span class=\"highlight\">Stunned</span> after a <span class=\"highlight\">{s:StunDelay} second delay</span>, interrupting and temporarily preventing them from taking any action."
+		"upgrade_target_stun_desc"			"Target is <span class=\"highlight\">knocked down</span> and <span class=\"highlight\">Stunned</span> after a <span class=\"highlight\">{s:StunDelay}s delay</span>, interrupting and temporarily preventing them from taking any action."
 		
 		"upgrade_aoe_root"				"Vacuum Web"
 		"upgrade_aoe_root_active"		"Throw a <span class=\"highlight\">vacuum</span> grenade, pulling all enemies into a small area where they remain <span class=\"highlight\">tethered</span>."
@@ -883,10 +886,13 @@
 		
 		"upgrade_proc_melee_stun"						"Melee Knockdown"
 		"upgrade_proc_melee_stun_desc"					"The 3rd hit of your <span class=\"highlight\">melee combo</span> will <span class=\"highlight\">stun</span> enemies."
-		
-		"upgrade_reduce_debuff_duration"				"Debuff Reducer"
+
+		"upgrade_debuff_reducer"				"Debuff Reducer"
+		"upgrade_debuff_reducer_desc"			"Reduces the <span class=\"highlight\">duration</span> of all negative effects applied to you."
+
+		"upgrade_reduce_debuff_duration"				"Debuff Remover"
 		"upgrade_reduce_debuff_duration_desc"			"Reduces the <span class=\"highlight\">duration</span> of all negative effects applied to you."
-		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Significantly</span> reduce the <span class=\"highlight\">remaining duration</span> of all negative effects currently applied to you. If any effects were reduced, gain a <span class=\"highlight\">movement speed bonus</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
+		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Purge all negative effects</span> currently applied to you. If any effects were removed, gain a <span class=\"highlight\">movement speed bonus</span>. <br>Cannot be used while <span class=\"highlight\">Stunned</span> or <span class=\"highlight\">Slept</span>."
 
 		"upgrade_high_impact_armor"						"High Impact Armor"
 		"upgrade_high_impact_armor_desc"				"Provides protection against high-damage bullets. Any <span class=\"highlight\">bullet damage</span> portion above the threshold is reduced by {s:DamageReduction}%."
@@ -933,7 +939,9 @@
 		RespawnDelay_postfix						"s"
 
 		"upgrade_phantom_strike"				"Phantom Strike"
-		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">Teleport</span> to an enemy target, dealing <span class=\"highlight\">damage</span> and applying <span class=\"highlight\">Slow</span>."
+		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">Teleport</span> to an enemy target, dealing <span class=\"highlight\">damage</span> and applying <span class=\"highlight\">Slow</span> and granting the caster a temporary <span class=\"highlight\">Bullet Shield</span>."
+		"BarrierDuration_label"					"Shield Duration"
+		"BarrierDuration_postfix"				"s"
 
 		"upgrade_rebirth"						"Rebirth"
 		"upgrade_rebirth_passive"				"If you die, after {s:RespawnDelay}s you will <span class=\"highlight\">respawn at your death location</span>. On your second life you have a <span class=\"highlight\">large amount of bonus health</span>."
