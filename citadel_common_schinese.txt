@@ -316,9 +316,12 @@
 		"upgrade_proc_silence_desc"		"你的子弹会给敌方英雄施加 <span class=\"highlight\">EMP电荷</span>，使其 <span class=\"highlight\">无法使用技能</span>。效果消失后，目标在 <span class=\"highlight\">{s:ImmunityDuration}秒</span> 内对EMP弹药免疫。"
 
 		"upgrade_silencer"				"静默使者"
-		"upgrade_silencer_active"		"在接下来的 {s:AbilityDuration}秒内, <span class=\"highlight\">你的所有子弹立即施加沉默</span> 并 <span class=\"highlight\">减速</span>。沉默效果会阻止目标使用技能。"
+		"upgrade_silencer_active"		"在接下来的 {s:AbilityDuration}秒内, <span class=\"highlight\">你的所有子弹立即施加沉默</span>。沉默效果会阻止目标使用技能。"
 		"upgrade_silencer_passive1"		"你的子弹对<span class=\"highlight\">被沉默的目标</span>造成<span class=\"highlight\">+{s:BonusBulletDamageToEMPTargets}%的额外伤害</span>。"
 		"upgrade_silencer_passive2"		"你的子弹会给敌方英雄施加<span class=\"highlight\">EMP电荷</span>，使其无法使用技能。"
+		"SilencerSlowPercent_label"		"子弹减少触发几率"
+		"SilencerSlowPercent_postfix"	"%"
+		"SilencerSlowPercent_prefix"	"+"
 
 		"upgrade_proc_tech_damage"		"魔导弹药"
 		"upgrade_proc_tech_damage_desc"	"你的子弹会附带<span class=\"highlight\">基础子弹伤害 [{s:BaseDamagePerShot}] </span>的灵能伤害。魔导弹药的伤害会根据<span class=\"highlight\">灵能力量</span>获得<span class=\"highlight\">{s:SpellAmplificationMultiplier}倍</span>的加成。霰弹枪的伤害会在每颗弹丸之间分摊。此效果每<span class=\"highlight\">{s:ProcCooldown}秒</span>只能触发一次。"
@@ -531,7 +534,7 @@
 		"modifier_stabilizing_tripod_self_debuff"				"哨兵"
 
 		"upgrade_burst_fire"							"暴走"
-		"upgrade_burst_fire_desc"						"开始射击后，短时间内获得<span class=\"highlight\">射速提升</span>。"
+		"upgrade_burst_fire_desc"						"当你的子弹击中敌方英雄时，短时间内获得<span class=\"highlight\">射速提升</span>。"
 		"upgrade_burst_fire/modifier_burst_fire_buff"	"连发射击强化"
 	
 		upgrade_arcane_eater							"奥术吞噬者"
@@ -886,9 +889,13 @@
 		"upgrade_proc_melee_stun"						"震撼打击"
 		"upgrade_proc_melee_stun_desc"					"你的第3次<span class=\"highlight\">近战连击</span>将会<span class=\"highlight\">击晕</span>敌人。"
 		
+
+		"upgrade_debuff_reducer"				"状态抗性"
+		"upgrade_debuff_reducer_desc"			"减少所有应用于你的负面效果的<span class=\"highlight\">持续时间</span>。"
+
 		"upgrade_reduce_debuff_duration"				"净化"
 		"upgrade_reduce_debuff_duration_desc"			"减少所有对你施加的负面效果的<span class=\"highlight\">持续时间</span>。"
-		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">显著</span>减少当前应用于你的所有负面效果的<span class=\"highlight\">剩余持续时间</span>。如果有任何效果被减少，获得<span class=\"highlight\">移动速度加成</span>。<br>不能在<span class=\"highlight\">晕眩</span>或<span class=\"highlight\">睡眠</span>状态下使用。"
+		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">清除所有当前应用于你的负面效果</span>。如果有任何效果被减少，获得<span class=\"highlight\">移动速度加成</span>。<br>不能在<span class=\"highlight\">晕眩</span>或<span class=\"highlight\">睡眠</span>状态下使用。"
 
 		"upgrade_high_impact_armor"						"钢铁壁垒"
 		"upgrade_high_impact_armor_desc"				"提供对高伤害子弹的保护。任何<span class=\"highlight\">子弹伤害</span>部分超过阈值的部分将减少{s:DamageReduction}%。"
@@ -935,7 +942,9 @@
 		RespawnDelay_postfix						"秒"
 
 		"upgrade_phantom_strike"				"幻影突袭"
-		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">瞬移</span>到敌方目标，造成<span class=\"highlight\">伤害</span>并附加<span class=\"highlight\">减速</span>效果。"
+		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">瞬移</span>到敌方目标，造成<span class=\"highlight\">伤害</span>并附加<span class=\"highlight\">减速</span>效果，同时给予施法者一个临时的<span class=\"highlight\">子弹护盾</span>。"
+		"BarrierDuration_label"					"护盾持续时间"
+		"BarrierDuration_postfix"				"秒"
 
 		"upgrade_rebirth"						"涅槃"
 		"upgrade_rebirth_passive"				"如果你死亡，在{s:RespawnDelay}秒后你将在<span class=\"highlight\">死亡位置复活</span>。在复活后，你将获得额外大量<span class=\"highlight\">生命值</span>。"
