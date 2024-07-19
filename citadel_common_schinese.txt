@@ -288,13 +288,13 @@
 		AmmoScavengerDuration_label			"持续时间"
 		AmmoScavengerDuration_postfix		"秒"
 
-
+		"upgrade_rapid_rounds"			"连续射击"
 
 		"upgrade_stabilizer"				"枪口稳定器"
 		"upgrade_stabilizer_desc"		"消除射击时的<span class=\"highlight\">移动速度惩罚</span>，并增加<span class=\"highlight\">弹道速度</span>。"
 
 		"upgrade_lifestrike_gauntlets"		"吸血拳套"
-		"upgrade_lifestrike_gauntlets_desc"	"你的 <span class=\"highlight\">近战攻击</span> 对敌方英雄时， <span class=\"highlight\">治疗你</span> 治疗量为 {s:LifestrikeHeal} + {s:LifestrikeHealPercent}%的近战伤害。"
+		"upgrade_lifestrike_gauntlets_desc"	"你的 <span class=\"highlight\">近战攻击</span> 对敌方英雄时， <span class=\"highlight\">治疗你</span> 治疗量为 {s:LifestrikeHeal} + {s:LifestrikeHealPercent}%的近战伤害。对非英雄单位 {s:NonHeroHealPct}% 的效果。"
 
 		"upgrade_chain_lightning"		"链式闪电"
 		"upgrade_chain_lightning_desc"	"你的子弹有几率 <span class=\"highlight\">电击</span> 目标。电击会跳到附近的敌人身上。"
@@ -310,7 +310,7 @@
 		"upgrade_small_attack_speed_desc"	"增加你的 <span class=\"highlight\">射速</span>。"
 
 		"upgrade_targeted_silence"		"沉默符文"
-		"upgrade_targeted_silence_desc"	"发射一个投射物， <span class=\"highlight\">沉默</span> 目标，并<span class=\"highlight\">增加你对其的灵能伤害</span> 。沉默不会打断引导技能。"
+		"upgrade_targeted_silence_desc"	"发射一个投射物， <span class=\"highlight\">沉默</span> 目标，并降低其<span class=\"highlight\">灵能抗性</span>。 。沉默不会打断引导技能。"
 
 		"upgrade_proc_silence"			"EMP弹药"
 		"upgrade_proc_silence_desc"		"你的子弹会给敌方英雄施加 <span class=\"highlight\">EMP电荷</span>，使其 <span class=\"highlight\">无法使用技能</span>。效果消失后，目标在 <span class=\"highlight\">{s:ImmunityDuration}秒</span> 内对EMP弹药免疫。"
@@ -387,7 +387,7 @@
 		MagicShockDamage_postfix	"%"
 
 		"upgrade_tech_bleed"	"秘境回响"
-		"upgrade_tech_bleed_desc" "赋予技能以施加<span class=\"highlight\">减速效果</span>，并在短暂延迟后在目标周围一定范围内造成<span class=\"highlight\">额外百分比伤害</span>。"
+		"upgrade_tech_bleed_desc" "赋予技能以施加<span class=\"highlight\">减速效果</span>，并在短暂延迟后在目标周围一定范围内造成<span class=\"highlight\">额外百分比伤害</span>，该伤害基于对目标造成的伤害量。"
 
 		"upgrade_toxic_bullets"		"毒性弹药"
 		"upgrade_toxic_bullets_desc"	"你的子弹会对敌人造成<span class=\"highlight\">流血</span>，使他们受到 <span class=\"highlight\">当前生命百分比</span> 的持续伤害. 并且对出血目标施加 <span class=\"highlight\">降低治疗效果</span> 减益效果。"
@@ -471,7 +471,7 @@
 		"upgrade_glass_cannon_desc"		"每击杀一名英雄，永久获得 <span class=\"highlight\"> +{s:BonusClipPerKill} 装弹量</span> （最多不超过 +{s:MaxClipBonus} 的上限）."
 
 		"upgrade_surging_power"			"血腥收割"
-		"upgrade_surging_power_active"	"主动 启用短暂获得额外 <span class=\"highlight\">子弹吸血</span> 和 提升<span class=\"highlight\">射速</span>."
+		"upgrade_surging_power_active"	"瞬间重装部分弹药获得额外 <span class=\"highlight\">子弹吸血</span> 和 提升<span class=\"highlight\">射速</span>."
 		ActiveBonusLifesteal_label		"子弹吸血"
 		ActiveBonusLifesteal_postfix	"%"
 
@@ -503,7 +503,7 @@
 		"BaseBonusWeaponPower_prefix"					"+"
 
 		"upgrade_boxing_glove"							"灵能重击"
-		"upgrade_boxing_glove_desc"						"每隔一段时间你的 <span class=\"highlight\">近战攻击</span>，击中敌方英雄时施加<span class=\"highlight\">移速减慢</span>并且为你恢复{s:LifestealHealPercent}%造成的<span class=\"highlight\">近战伤害</span>加上{s:LifestealHeal}点生命值。。"
+		"upgrade_boxing_glove_desc"						"每隔一段时间你的 <span class=\"highlight\">近战攻击</span>，击中敌方英雄时施加<span class=\"highlight\">移速减慢</span>并且为你恢复{s:LifestealHealPercent}%造成的<span class=\"highlight\">近战伤害</span>加上{s:LifestealHeal}点生命值。对非英雄单位只有 {s:NonHeroHealPct}% 的效果。"
 		"BonusMeleeSpeed_label"							"伤害增加"
 		"BonusMeleeSpeed_prefix"						"+"
 		"BonusMeleeSpeed_postfix"						"%"
@@ -534,7 +534,7 @@
 		"modifier_stabilizing_tripod_self_debuff"				"哨兵"
 
 		"upgrade_burst_fire"							"暴走"
-		"upgrade_burst_fire_desc"						"当你的子弹击中敌方英雄时，短时间内获得<span class=\"highlight\">射速提升</span>。"
+		"upgrade_burst_fire_desc"						"当你的子弹击中敌方英雄时，短时间内获得<span class=\"highlight\">射速提升</span>和<span class=\"highlight\">移动速度</span>。。"
 		"upgrade_burst_fire/modifier_burst_fire_buff"	"连发射击强化"
 	
 		upgrade_arcane_eater							"奥术吞噬者"
@@ -671,9 +671,9 @@
 		"upgrade_active_reload_desc"	"装弹时，在高亮显示的部分按下 [{s:key_reload}]，会<span class=\"highlight\">立即完成装弹并获得射速和子弹吸血</span>。"
 		"upgrade_active_reload/buff"	"主动装填"
 
-		"upgrade_arcane_medallion"		"灵能胸针"
+		"upgrade_arcane_medallion"		"英灵胸针"
 		"upgrade_arcane_medallion_desc"	"每当你对敌方英雄一次造成<span class=\"highlight\">{s:MinimumDamage}灵能伤害</span>或更高，获得<span class=\"highlight\">临时灵能加成</span>。"
-		modifier_arcane_medallion_triggered	"灵能胸针"
+		modifier_arcane_medallion_triggered	"英灵胸针"
 
 		"upgrade_mod_disruptor"			"灵魂干扰者"
 		"upgrade_mod_disruptor_desc"	"投掷一枚手榴弹，在接触时爆炸，并对每个敌人施加 <span class=\"highlight\">沉默</span> 和 <span class=\"highlight\">伤害加深</span>"
@@ -785,7 +785,7 @@
 
 		"upgrade_diviners_kevlar"				"占卜者凯夫拉的护甲"
 		"upgrade_diviners_kevlar_desc"			"当施放 <span class=\"highlight\">终极技能时</span>获得暂时的 <span class=\"highlight\">子弹护盾</span>，<span class=\"highlight\">灵能护盾</span>以及 <span class=\"highlight\">额外灵能伤害加成</span>。"
-		"BonusChannelTechPower_label"			"施放后的精神"
+		"BonusChannelTechPower_label"			"施放后的灵能"
 		"BonusChannelTechPower_prefix"			"+"
 		"BonusChannelTimePercentage_label"		"持续时间"
 		"BonusChannelTimePercentage_prefix"		"+"
@@ -796,7 +796,8 @@
 		"upgrade_infuser_desc"			"获得额外<span class=\"highlight\">灵能</span>和<span class=\"highlight\">灵能吸血</span>。"
 
 		"upgrade_acolytes_glove"				"灵界打击"
-		"upgrade_acolytes_glove_desc"			"当你对一个英雄进行<span class=\"highlight\">轻或重近战攻击</span>时，获得<span class=\"highlight\">临时灵能能量</span>。"
+		"upgrade_acolytes_glove_desc"			"当你对一个英雄进行<span class=\"highlight\">轻或重近战攻击</span>时，获得额外<span class=\"highlight\">灵能伤害</span>并降低目标的<span class=\"highlight\">灵能抗性</span>。。"
+		SpiritDamage_label						"灵能伤害"
 		modifier_acolytes_glove_triggered		"灵界打击"
 
 		"upgrade_melee_charge"					"冲锋"
@@ -836,7 +837,7 @@
 		"upgrade_health_regen_1_desc"					"增加<span class=\"highlight\">生命恢复</span>。"
 
 		"upgrade_health_stimpak"						"静谧恢复"
-		"upgrade_health_stimpak_desc"					"在一段时间内<span class=\"highlight\">回复目标的生命值</span>。如果你受到敌方玩家或目标的伤害，回复效果将会消失。可以自施。"
+		"upgrade_health_stimpak_desc"					"赋予目标<span class="highlight">生命恢复</span>和<span class="highlight">移速加成</span>。如果你受到敌方玩家或目标的伤害，回复效果将会消失。可以自施。"
 
 		"upgrade_savior"					"防护之手"
 		"upgrade_savior_desc"				"为目标提供<span class=\"highlight\">子弹护盾、灵能护盾和移动速度</span>。可以自施。"
@@ -942,12 +943,14 @@
 		RespawnDelay_postfix						"秒"
 
 		"upgrade_phantom_strike"				"幻影突袭"
-		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">瞬移</span>到敌方目标，造成<span class=\"highlight\">伤害</span>并附加<span class=\"highlight\">减速</span>效果，同时给予施法者一个临时的<span class=\"highlight\">子弹护盾</span>。"
+		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">瞬移</span>到敌方目标，对其施加<span class="highlight">缴械</span>、<span class="highlight">减速</span>效果，并造成<span class="highlight">伤害</span>。"
 		"BarrierDuration_label"					"护盾持续时间"
 		"BarrierDuration_postfix"				"秒"
+		PhantomStrikeDebuffDuration_label		"缴械 & 减速持续时间"
+		PhantomStrikeDebuffDuration_postfix		"秒"
 
 		"upgrade_rebirth"						"涅槃"
-		"upgrade_rebirth_passive"				"如果你死亡，在{s:RespawnDelay}秒后你将在<span class=\"highlight\">死亡位置复活</span>。在复活后，你将获得额外大量<span class=\"highlight\">生命值</span>。"
+		"upgrade_rebirth_passive"				"如果你死亡，在{s:RespawnDelay}秒后你将在<span class=\"highlight\">死亡位置复活</span>。在复活后拥有部分生命值。"
 		
 		"upgrade_active_bullet_shield"					 "护卫屏障"
 		"upgrade_active_bullet_shield_desc"				 "为你和附近的盟军英雄及其小兵提供临时的<span class=\"highlight\">子弹屏障</span>。"
@@ -999,7 +1002,7 @@
 		"upgrade_frenzy/modifier_frenzy_aura/modifier_frenzy_kill"		"斩杀狂热"
 
 		upgrade_unstoppable						"势不可挡"
-		upgrade_unstoppable_desc				"主动开启获得精神抗性，<span class=\"highlight\">免疫负面状态效果</span>，并免疫眩晕、沉默、睡眠、缠绕、缴械和系带效果。"
+		upgrade_unstoppable_desc				"获得灵能抗性，<span class=\"highlight\">免疫负面状态效果</span>，并免疫眩晕、沉默、睡眠、缠绕、缴械和系带效果。"
 		
 		upgrade_colossus				"硬化皮肤"
 		upgrade_colossus_desc			"获得<span class=\"highlight\">子弹与灵能抗性</span>，并<span class=\"highlight\">减缓附近敌人的速度</span>。你的模型大小增长20%。"
