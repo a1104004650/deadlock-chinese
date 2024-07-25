@@ -375,7 +375,7 @@
 		CasterSlowPercent_postfix	"%"
 
 		"upgrade_tech_damage_pulse"			"脉冲新星"
-		"upgrade_tech_damage_pulse_desc"	"定期对最近的敌人造成<span class=\"highlight\">灵能伤害</span>。"
+		"upgrade_tech_damage_pulse_desc"	"定期对最近的两名敌人造成<span class=\"highlight\">灵能伤害</span>。"
 
 		"upgrade_magic_burst"	"秘法爆裂"
 		"upgrade_magic_burst_desc"	"技能单次命中造成<span class=\"highlight\">{s:MinimumDamage}伤害</span>或以上时，额外造成<span class=\"highlight\">伤害</span>。"
