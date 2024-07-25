@@ -375,7 +375,7 @@
 		CasterSlowPercent_postfix	"%"
 
 		"upgrade_tech_damage_pulse"			"Torment Pulse"
-		"upgrade_tech_damage_pulse_desc"	"Periodically deals <span class=\"highlight\">Spirit Damage</span> to the closest nearby enemy."
+		"upgrade_tech_damage_pulse_desc"	"Periodically deals <span class=\"highlight\">Spirit Damage</span> to the closest two enemies nearby."
 
 		"upgrade_magic_burst"	"Mystic Burst"
 		"upgrade_magic_burst_desc"	"Abilities deal bonus <span class=\"highlight\">Spirit Damage</span> if they deal {s:MinimumDamage} damage or more in a single hit."
